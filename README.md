@@ -2,6 +2,8 @@
 
 This is a Retrieval-Augmented Generation (RAG) system for interpreting natural language queries and visualizing data.
 
+![Preview](./public/demo.gif)
+
 ## Features
 
 - Natural language query interpretation
