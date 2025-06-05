@@ -31,3 +31,6 @@ This is a Retrieval-Augmented Generation (RAG) system for interpreting natural l
 - LLM (Google Gemini 1.5 Flash)
 
 
+## Activity Diagram
+
+![Preview](./public/act-diagram.png)
