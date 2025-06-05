@@ -1,0 +1,9 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    width: 100%;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.146);
+    flex-shrink: 0; 
+}

@@ -1,0 +1,42 @@
+.suggestion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0 10px;
+  }
+
+  .suggestion-container.centered {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 53%;      
+    left: 50%;     
+    transform: translate(-50%, -50%); 
+    justify-content: center;  
+    align-items: center;      
+    height: 1rem;            
+    width: 100%;             
+}
+
+  .suggestion-pill {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid var(--light-grey);
+    border-radius: 999px;
+    padding: 8px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .suggestion-pill:hover {
+    background-color: transparent;
+    color: white;
+    transform: scale(1.05);
+  }
+  
+  .loading {
+    font-size: 16px;
+    color: var(white); 
+}

@@ -1,0 +1,253 @@
+Run started:2025-04-23 07:56:35.944659
+
+Test results:
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:19:4
+18	    
+19	    assert result["chartType"] == "line"
+20	    assert result["chartData"]["datasets"][0]["label"] == "PH Sensor"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:20:4
+19	    assert result["chartType"] == "line"
+20	    assert result["chartData"]["datasets"][0]["label"] == "PH Sensor"
+21	    assert result["chartData"]["datasets"][0]["data"] == [5.5, 6.1]
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:21:4
+20	    assert result["chartData"]["datasets"][0]["label"] == "PH Sensor"
+21	    assert result["chartData"]["datasets"][0]["data"] == [5.5, 6.1]
+22	    assert result["chartData"]["labels"] == [
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:22:4
+21	    assert result["chartData"]["datasets"][0]["data"] == [5.5, 6.1]
+22	    assert result["chartData"]["labels"] == [
+23	        "2025-04-22T14:00:00",
+24	        "2025-04-22T15:00:00"
+25	    ]
+26	    assert result["chartOptions"]["scales"]["x"]["type"] == "time"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:26:4
+25	    ]
+26	    assert result["chartOptions"]["scales"]["x"]["type"] == "time"
+27	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:36:4
+35	    
+36	    assert result["chartData"]["labels"] == ["2025-04-22T15:00:00"]
+37	    assert result["chartData"]["datasets"][0]["data"] == [4.2]
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:37:4
+36	    assert result["chartData"]["labels"] == ["2025-04-22T15:00:00"]
+37	    assert result["chartData"]["datasets"][0]["data"] == [4.2]
+38	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:42:4
+41	    
+42	    assert result["chartData"]["labels"] == []
+43	    assert result["chartData"]["datasets"][0]["data"] == []
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:43:4
+42	    assert result["chartData"]["labels"] == []
+43	    assert result["chartData"]["datasets"][0]["data"] == []
+44	    assert result["chartData"]["datasets"][0]["label"] == "Empty Test"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_chart_generation.py:44:4
+43	    assert result["chartData"]["datasets"][0]["data"] == []
+44	    assert result["chartData"]["datasets"][0]["label"] == "Empty Test"
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_llm.py:15:4
+14	    result = generate_text_from_query_results("Test query", [], "ph in")
+15	    assert "error" in result
+16	    assert result["error"] == "No data retrieved from MongoDB."
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_llm.py:16:4
+15	    assert "error" in result
+16	    assert result["error"] == "No data retrieved from MongoDB."
+17	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:23:8
+22	        matched_sensors[i] = matched_sensors[i].lower()
+23	        assert matched_sensors[i] == "ph in"
+24	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:26:8
+25	    for i in range(len(mongo_dates)):
+26	        assert str(mongo_dates[i]) == "2022-09-28 00:00:00+00:00"
+27	    
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:28:4
+27	    
+28	    assert hour_start == 16
+29	    assert hour_end == 17
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:29:4
+28	    assert hour_start == 16
+29	    assert hour_end == 17
+30	 
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:41:4
+40	    matched_sensors = [sensor.lower() for sensor in matched_sensors]
+41	    assert sorted(matched_sensors) == sorted(expected_sensors)
+42	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:44:8
+43	    for i in range(len(mongo_dates)):
+44	        assert str(mongo_dates[i]) == "2022-09-30 00:00:00+00:00"
+45	    
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:46:4
+45	    
+46	    assert hour_start == 16
+47	    assert hour_end == 17
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:47:4
+46	    assert hour_start == 16
+47	    assert hour_end == 17
+48	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:55:4
+54	
+55	    assert results == {"error": "Unknown sensor type."}
+56	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:60:4
+59	    valid_dates, mongo_dates, hour_start, hour_end, error_message = extract_all_dates("ph in values 2022")
+60	    assert error_message == "Could not extract valid dates."
+61	
+
+--------------------------------------------------
+>> Issue: [B101:assert_used] Use of assert detected. The enclosed code will be removed when compiling to optimised byte code.
+   Severity: Low   Confidence: High
+   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
+   More Info: https://bandit.readthedocs.io/en/1.8.3/plugins/b101_assert_used.html
+   Location: ./tests/unit/test_variable_extraction.py:64:4
+63	    valid_dates, mongo_dates, hour_start, hour_end, error_message = extract_all_dates("ph in values 28 sep 2022")
+64	    assert valid_dates[0] == "2022-09-28"
+65	    
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 1654
+	Total lines skipped (#nosec): 0
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 23
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 0
+		High: 23
+Files skipped (0):

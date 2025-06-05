@@ -1,0 +1,261 @@
+.modal-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.modal-content {
+  background-color: var(--content);
+  padding: 30px;
+  margin-top: 30px;
+  max-width: 1100px;
+  width: 100%;
+  height: 85vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 2;
+}
+@media (min-width: 1600px) {
+  .modal-content {
+    width: 43vw; 
+    height: 85vh; 
+    max-width: 1600px;
+    top: 5%;
+  }
+}
+
+.modal-title {
+  display: flex;
+  position: fixed;
+}
+
+.close-btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  z-index: 4;
+  background: none;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.saved-line {
+  margin-left: 30px;
+}
+
+.dialog-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.301);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.dialog-content {
+  background-color: var(--content);
+  border: solid rgba(255, 255, 255, 0.151) 0.5px;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  height: 45vh;
+  position: relative;
+}
+
+.sm-dialog-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.301);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.sm-dialog-content {
+  background-color: var(--content);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  position: relative;
+}
+
+.save-btn {
+  position: relative; 
+  display: flex;
+  justify-content: flex-end; 
+  width: 100%;
+  gap: 1rem;
+}
+
+
+.save-btn button {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: var(--blue);
+  padding: 7px;
+  border-radius: 5px;
+  
+}
+
+.cfm-btn {
+position: relative; 
+bottom: 100;
+display: flex;
+justify-content: flex-end; 
+align-items: end;
+gap: 7px; 
+width: 100%;
+}
+
+
+.cfm-btn button {
+font-size: 12px;
+font-weight: 500;
+background-color: var(--blue);
+padding: 7px;
+width: 100px;
+border-radius: 5px;
+}
+
+
+.cfm-btn button:hover {
+background-color: rgb(4, 4, 212);
+cursor: pointer;
+}
+
+.save-btn button:hover {
+  background-color: rgb(4, 4, 212);
+  cursor: pointer;
+}
+
+.save-chart-input {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+}
+
+.save-input {
+height: 40px;
+max-width: 600px;
+margin-block-end: 15px;
+color: black;
+padding: 20px;
+border-radius: 4px;
+}
+
+
+
+.list-btns {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  font-weight: 700;
+  justify-content: end;
+}
+
+.list-btns button {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: var(--blue);
+  border-radius: 5px;
+}
+
+.list-btns button:hover{
+  background-color: blue;
+}
+
+.dividers {
+width: 100%;
+margin-block: 10px;
+border: none;
+border-bottom: 1px solid #2F3B5D;
+}
+
+.prompt-list-container {
+display: flex;
+justify-content: center;
+max-width: 100%;
+max-height: 100%;
+overflow-y: auto;
+scrollbar-width: none; 
+padding: 20px;
+}
+
+.no-history-message {
+margin-top: 20px; 
+font-size: 16px;
+}
+
+.prompt-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px;
+border-bottom: 1px solid #2F3B5D;
+}
+
+.execute-btn {
+font-size: 12px;
+font-weight: 500;
+background-color: var(--blue);
+padding: 7px;
+width: 80px;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+.execute-btn:hover {
+background-color: rgb(4, 4, 212);
+cursor: pointer;
+}
+
+.clear-history-btn {
+position: absolute; 
+bottom: 10px;
+right: 10px;
+display: flex;
+justify-content: flex-end; 
+width: 100%;
+padding: 10px;
+}
+
+.loading-message {
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+padding: 10px;
+}

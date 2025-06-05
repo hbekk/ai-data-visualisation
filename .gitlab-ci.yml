@@ -1,0 +1,21 @@
+stages:
+  - test
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+
+test_backend:
+  stage: test
+  image: python:3.11
+  before_script:
+    - python -m pip install --upgrade pip
+    - pip install -r src/backend/requirements.txt
+  script:
+    - echo "Running tests..."
+    - pytest src/backend/tests/unit
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
