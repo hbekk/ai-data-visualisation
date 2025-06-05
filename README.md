@@ -1,6 +1,6 @@
 # Data Visualisation with RAG
 
-This is a Retrieval-Augmented Generation (RAG) system for interpreting natural language queries and visualizing data.
+This is a Retrieval-Augmented Generation (RAG) system for interpreting natural language queries and visualising data.
 
 ![Preview](./public/demo.gif)
 
